@@ -1,0 +1,111 @@
+/* styles for the boby element and page division */
+body{
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    margin: 0;
+	
+}
+#page{
+	margin: 0 auto;
+	
+	padding: 15px;
+}
+/*styles for the header */
+#header{
+	height: 350px;
+}
+#header img{
+	float: left;
+	border: 2px solid #8FBC8F;
+	width: 1300px;
+}
+
+/* styles for the main division */
+#main{
+	margin: 0 275px 0 265px;
+	padding: 7px 0;
+	border: 2px solid  #8FBC8F;
+	background-color:#EEE8AA;
+	
+}
+#main p,a{
+	font-family:Geneva, Arial, Helvetica,fantasy;
+	text-decoration: none;
+	font-size: 100%;
+	padding: 0 1em;
+}
+#main h2,h3{
+	font-family: Geneva, Arial, Helvetica,fantasy;
+	text-align: center;
+}
+caption{
+	font-family: Geneva, Arial, Helvetica,fantasy;
+	text-align: center;
+	font-size: 200%;
+}
+table{
+	text-align: center;
+	border: 2px solid #2E8B57;
+	border-collapse: collapse;
+}
+caption{
+	font-family: Geneva, Arial, Helvetica,fantasy;
+	font-weight: bold;
+	margin-bottom: .10em;
+}
+.fig{
+	text-align: center;
+}
+#navigation p {
+	font-size: 50%;
+	font-weight: bold;
+	margin: 0 265px 0 245px;
+	height: 40px;
+	padding: 7px;
+	clear: left;
+	width: 100%;
+	
+}
+
+#video{
+	text-align: center;
+}
+
+/* styles for the contact form */
+label{
+	float: left;
+	text-align: left;
+	padding-left: 2em;
+	width: 6em;
+}
+#data input, textarea, select{
+	margin-left: 2em;
+}
+#buttons{
+	padding-left: 10em;	
+}
+fieldset{
+	margin: 2em;
+	width: 450px;
+}
+#bussiness{
+	margin-left: 2em;
+	padding-left: 2em;
+	width: 250px;
+
+}
+#data p{
+	margin-left: 1em;
+}
+/* styles for the footer */
+#footer{
+	margin: .2em;
+	width: 100%;
+	border-top: 2px solid #8FBC8F;
+	background-color: #EEE8AA;
+}
+#footer p{
+	text-align: right;
+	padding-right: .2em;
+}
+
